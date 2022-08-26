@@ -23,7 +23,7 @@ function Contact() {
                 <ul>
                     <li>Tel: {contact.telefonNummber}</li>
                     <li>E-post: {contact.email}</li>
-                    <li> Adresse: {contact.adresse}</li>
+                    <li>Adresse: {contact.adresse}</li>
                 </ul>
             </div>
         </section>
