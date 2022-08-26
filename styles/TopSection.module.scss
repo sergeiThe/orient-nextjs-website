@@ -15,8 +15,8 @@
     .video-container {
         width: 40rem;
         height: 20rem;
-        border-radius: 220px;
-        border: 5px white solid;
+        // border-radius: 220px; // Safari incompatible
+        border: 1px white solid;
         overflow: hidden;
         position: relative;
     }

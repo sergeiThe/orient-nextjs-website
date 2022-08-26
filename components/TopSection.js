@@ -6,7 +6,7 @@ function TopSection() {
     return (
         <section className={styles['top-section']}>
             <div className={styles['video-container']}>
-                <video autoPlay loop muted>
+                <video muted controls>
                     <source src='./video/video.mp4' />
                 </video>
             </div>
