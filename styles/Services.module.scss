@@ -3,6 +3,11 @@
 .services {
     padding: 20rem 0;
 
+    @include respond(phone) {
+        padding: 0;
+        border-top: 1px solid rgb(119, 119, 119);
+    }
+
     .title {
         text-align: center;
     }

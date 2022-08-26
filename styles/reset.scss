@@ -14,8 +14,7 @@ body {
     scroll-behavior: smooth;
 
     @include respond(phone) {
-        background-size: 1400px;
-        background-repeat: no-repeat;
+        background: linear-gradient(to right, rgb(0, 0, 0), rgb(46, 0, 0));
     }
 }
 
