@@ -11,6 +11,15 @@
         height: 3rem;
     }
 
+    @include respond(phone) {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        z-index: 20;
+        right: 2rem;
+        height: 3rem;
+    }
+
     .burgerLine {
         width: 4rem;
         height: 2px;

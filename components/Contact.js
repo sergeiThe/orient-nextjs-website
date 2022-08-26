@@ -21,9 +21,9 @@ function Contact() {
             <Link href={'https://oriental.onlinebooq.net/'}>Book time</Link>
             <div className={styles['contact-info']}>
                 <ul>
-                    <li>{contact.telefonNummber}</li>
-                    <li>{contact.email}</li>
-                    <li>{contact.adresse}</li>
+                    <li>Tel: {contact.telefonNummber}</li>
+                    <li>E-post: {contact.email}</li>
+                    <li> Adresse: {contact.adresse}</li>
                 </ul>
             </div>
         </section>
