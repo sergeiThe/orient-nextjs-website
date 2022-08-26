@@ -47,7 +47,7 @@ const services = {
     }, {
         id: 's4',
         title: "Rygg, nakke, skuldre og hode",
-        description: "Trykkpunktmassasje og forsiktig strekking av ledd og muskler reduserer spenninger, myker opp muskler og gir en avslappet opplevelse av velvære og ro i kropp og sinn.",
+        description: "Thaimassasje ekstra fokusert på den øvre delen av kroppen",
         pricings: [{
             time: "30",
             price: "500"
@@ -61,7 +61,7 @@ const services = {
     }, {
         id: 's5',
         title: "Fotmassasje",
-        description: "Trykkpunktmassasje og forsiktig strekking av ledd og muskler reduserer spenninger, myker opp muskler og gir en avslappet opplevelse av velvære og ro i kropp og sinn.",
+        description: "Velpleide føtter er en investering i helse.",
         pricings: [{
             time: "30",
             price: "500"
@@ -72,7 +72,7 @@ const services = {
     }],
     coupleMassage: [{
         id: 'c1',
-        title: "Oljemassasje for 2",
+        title: "Oljemassasje for 2 personer",
         pricings: [{
             time: "50",
             price: "1400"
@@ -88,7 +88,7 @@ const services = {
         }]
     }, {
         id: 'c2',
-        title: "Tradisjonell Thaimassasje for 2",
+        title: "Tradisjonell Thaimassasje for 2 personer",
         pricings: [{
             time: "50",
             price: "1400"
@@ -104,7 +104,7 @@ const services = {
         }]
     }, {
         id: 'c3',
-        title: "Rygg-, nakke-, skuldre- og hodemassasje for 2",
+        title: "Rygg-, nakke-, skuldre- og hodemassasje for 2 personer",
         pricings: [{
             time: "50",
             price: "1400"

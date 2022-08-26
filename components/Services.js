@@ -11,7 +11,7 @@ function Services() {
             </div>
             <div className={styles.text}>
 
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p>Thaimassasje er en tradisjonell form for massasje som egentlig stammer fra India og som har eksistert i flere tusen år. Behandlingen utføres gjennom strekking og trykk langs energilinjer i kroppen. Vi tilbyr følgende tjenester:</p>
             </div>
 
             <div className={styles['service-list']}>
@@ -43,7 +43,7 @@ function Services() {
                             </Service>
                         )
                     })}
-                    <Service />
+
                 </ul>
 
                 <ul className={styles['price-list-couple']}>

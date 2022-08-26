@@ -11,7 +11,7 @@ function TopSection() {
                 </video>
             </div>
             <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                Velkommen til profesjonell thaimassasje som gjør godt for kropp og sinn. Våre massører utfører massasjebehandlinger med effektive teknikker fra tradisjonell thaimassasje.
             </p>
             <Link href={'https://oriental.onlinebooq.net/'}>Book time</Link>
         </section>
