@@ -9,8 +9,14 @@ body {
         url("./../public/img/candle_compressed.jpg");
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     overflow-y: scroll;
     scroll-behavior: smooth;
+
+    @include respond(phone) {
+        background-size: 1400px;
+        background-repeat: no-repeat;
+    }
 }
 
 a {
