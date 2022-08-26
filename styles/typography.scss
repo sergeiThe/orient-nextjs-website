@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:wght@300;400;800&family=Open+Sans:wght@300;400;700&display=swap");
+@import "./mixins.scss"; // font-family: 'Berkshire Swash', cursive;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+html {
+    font-size: 60%;
+
+    @include respond(port) {
+        font-size: 60%;
+    }
+    @include respond(phone) {
+        font-size: 50%;
+    }
+    @include respond(desktop) {
+        font-size: 70%;
+    }
+    @include respond(bigscreen) {
+        font-size: 80%;
+    }
+}
+
+h1,
+h2,
+h3,
+footer,
+header,
+div,
+a,
+li,
+p,
+span {
+    // color: white;
+}
+
+h1 {
+    font-family: $font-logo;
+    font-size: 2.5rem;
+    color: $color-text-prim;
+    padding: 2rem 0;
+}
+h2 {
+    font-family: $font-prim;
+    font-weight: 400;
+    font-size: 2.7rem;
+    color: $color-text-prim;
+
+    padding: 2rem 0;
+}
+
+h3 {
+    font-family: $font-prim;
+    font-weight: 400;
+    font-size: 2.2rem;
+    color: $color-text-prim;
+
+    padding: 2rem 0;
+    line-height: 3rem;
+}
+
+div,
+span,
+p,
+a,
+button {
+    font-family: $font-sec;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+div,
+span,
+p {
+    color: $color-text-sec;
+    line-height: 2.5rem;
+}

@@ -1,0 +1,18 @@
+@import "./mixins.scss";
+
+.layout {
+    // min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    padding: 0 5rem;
+
+    @include respond(desktop) {
+        padding: 0 15rem;
+    }
+
+    @include respond(bigscreen) {
+        padding: 0 25rem;
+    }
+}

@@ -1,0 +1,22 @@
+@mixin respond($device) {
+    @if $device == phone {
+        @media (max-width: 600px) {
+            @content;
+        }
+    }
+    @if $device == port {
+        @media (max-width: 900px) {
+            @content;
+        }
+    }
+    @if $device == desktop {
+        @media (min-width: 1300px) {
+            @content;
+        }
+    }
+    @if $device == bigscreen {
+        @media (min-width: 1800px) {
+            @content;
+        }
+    }
+}

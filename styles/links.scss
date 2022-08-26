@@ -1,0 +1,15 @@
+a,
+button {
+    background-color: $color-text-prim;
+    color: black;
+    padding: 1.2rem 3rem;
+    border-radius: 3rem;
+    font-weight: 400;
+    font-family: $font-prim;
+
+    transition: all 0.2s;
+
+    &:hover {
+        background-color: white;
+    }
+}

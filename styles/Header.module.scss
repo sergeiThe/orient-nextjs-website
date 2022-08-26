@@ -1,0 +1,33 @@
+@import "./mixins.scss";
+.header {
+    flex-basis: 5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .big-nav {
+        padding: 0;
+        margin: 0;
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+
+            display: flex;
+            justify-content: space-around;
+
+            width: 40rem;
+
+            a {
+                background-color: transparent;
+                color: white;
+            }
+        }
+
+        @include respond(port) {
+            display: none;
+        }
+    }
+}
