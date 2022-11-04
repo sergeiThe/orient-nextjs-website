@@ -11,7 +11,7 @@ const services = {
             price: "900"
         }, {
             time: "90",
-            price: "1100"
+            price: "1125"
         }, {
             time: "120",
             price: "1500"
@@ -28,7 +28,7 @@ const services = {
             price: "900"
         }, {
             time: "90",
-            price: "1100"
+            price: "1125"
         }, {
             time: "120",
             price: "1500"
