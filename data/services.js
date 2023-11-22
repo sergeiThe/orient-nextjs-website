@@ -8,10 +8,10 @@ const services = {
             price: "790"
         }, {
             time: "75",
-            price: "900"
+            price: "950"
         }, {
             time: "90",
-            price: "1125"
+            price: "1150"
         }, {
             time: "120",
             price: "1500"
@@ -25,10 +25,10 @@ const services = {
             price: "790"
         }, {
             time: "75",
-            price: "900"
+            price: "950"
         }, {
             time: "90",
-            price: "1125"
+            price: "1150"
         }, {
             time: "120",
             price: "1500"
@@ -39,10 +39,10 @@ const services = {
         description: "I Hot Stone massasje brukes det lavasteiner som er oppvarmet i vannbad. Varmen fra steinene gir en rask avspenning i muskulaturen, senker stressnivået og reduserer smerter",
         pricings: [{
             time: "60",
-            price: "820"
+            price: "850"
         }, {
             time: "85",
-            price: "1150"
+            price: "1200"
         }]
     }, {
         id: 's4',
@@ -53,10 +53,13 @@ const services = {
             price: "500"
         }, {
             time: "60",
-            price: "750"
+            price: "790"
         }, {
             time: "75",
-            price: "900"
+            price: "950"
+        }, {
+            time: "90",
+            price: "1150"
         }]
     }, {
         id: 's5',
@@ -67,7 +70,7 @@ const services = {
             price: "500"
         }, {
             time: "60",
-            price: "750"
+            price: "790"
         }]
     }],
     coupleMassage: [{
@@ -81,7 +84,7 @@ const services = {
             price: "1500"
         }, {
             time: "75",
-            price: "1750"
+            price: "1800"
         }, {
             time: "90",
             price: "2200"
@@ -97,7 +100,7 @@ const services = {
             price: "1500"
         }, {
             time: "75",
-            price: "1750"
+            price: "1800"
         }, {
             time: "90",
             price: "2200"
@@ -113,7 +116,7 @@ const services = {
             price: "1500"
         }, {
             time: "75",
-            price: "1750"
+            price: "1800"
         }, {
             time: "90",
             price: "2200"
