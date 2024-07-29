@@ -47,7 +47,7 @@ function Services() {
           })}
         </ul>
 
-        {/*<ul className={styles["price-list-couple"]}>
+        <ul className={styles["price-list-couple"]}>
           {services.coupleMassage.map((service) => {
             return (
               <Service
@@ -65,7 +65,7 @@ function Services() {
               </Service>
             );
           })}
-        </ul>*/}
+        </ul>
       </div>
     </section>
   );
